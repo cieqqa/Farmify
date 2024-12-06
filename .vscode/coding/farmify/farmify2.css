@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Instrument Serif", serif;
+}
+
+body {
+    font-family: "Instrument Serif", serif;
+    line-height: 1.6;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    color: white;
+}
+
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.navbar .nav-links a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    height: 100vh;
+    background: url(farming.png) no-repeat center center/cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero-content h1 {
+    font-size: 64px;
+    margin-bottom: 20px;
+    font-weight: 100;
+    font-family: "Instrument Serif", serif;
+}
+
+.hero-content h1 span {
+    font-weight: 300;
+    font-family: "Familjen Grotesk", sans-serif;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+.buttons .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.buttons .btn-secondary {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.buttons .btn:hover {
+    background: white;
+    color: black;
+}
+
+.buttons .btn-secondary:hover {
+    background: white;
+    color: black;
+}

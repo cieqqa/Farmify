@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Instrument Serif", serif;
+    background-color: rgb(255, 242, 226);
+}
+
+body {
+    font-family: "Instrument Serif", serif;
+    line-height: 1.6;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    color: rgb(66, 128, 76);
+}
+
+.navbar .nav-links a {
+    color: rgb(66, 128, 76);
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.navbar .nav-links a:hover {
+    text-decoration: underline;
+}
+
+.fmf {
+    height: 100vh;
+    color: rgb(66, 128, 76);
+    display: flex;
+    align-items: center;
+    text-align: left;
+    line-height: 1.2;
+    justify-content: space-between;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.fmf-text h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-weight: 100;
+    font-family: "Instrument Serif", serif;
+    height: 44px;
+}
+
+.fmf-text p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.fmf-image img {
+    width: 546px;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 341px;
+}
